@@ -1,6 +1,8 @@
 <script setup>
-    import ScoreNav from "@/components/ScoreNav.vue"
     import { useRoute } from "vue-router"
+    import { ref } from "vue"
+    import ScoreNav from "@/components/ScoreNav.vue"
+    import LessonsQuestions from "@/components/LessonsQuestions.vue"
 
     const route = useRoute().path
 
@@ -9,4 +11,5 @@
 
 <template>
     <ScoreNav />
+    <LessonsQuestions />
 </template>

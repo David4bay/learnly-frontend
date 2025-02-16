@@ -10,6 +10,24 @@
 <style scoped>
     nav {
         margin-top: 125px;
+        position: relative;
+    }
+
+    .back__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -80px;
+        left: 20px;
+        position: absolute;
+        background-color: #F3E3F4;
+        padding: 10px;
+        border-radius: 50%;
+        transition: transform 400ms ease;
+
+        &:hover {
+            transform: translateX(8px);
+        }
     }
 
     ul {
@@ -24,7 +42,7 @@
         padding-right: 25px;
         height: 70px;
         border-radius: 8px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .points__goal__title, .current__goal__title {
@@ -40,7 +58,7 @@
 </style>
 <template>
     <nav>
-
+        <RouterLink to="/" class="back__button"><--</RouterLink>
         <ul>
             <div class="points__goal__container">
                 <div class="points__goal"><span class="points__goal__title">goal:  {{ goal }} points</span></div>
