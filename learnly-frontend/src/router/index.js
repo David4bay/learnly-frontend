@@ -21,6 +21,11 @@ const router = createRouter({
       name: 'quizes',
       component: Quizes
     },
+    {
+      path: '/:catchAll(.*)',
+      name: 'reroute',
+      component: Main
+    },
   ],
 })
 
