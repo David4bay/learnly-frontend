@@ -1,6 +1,6 @@
 <script setup>
     import { ref, reactive } from "vue"
-
+    import { RouterLink } from "vue-router";
     const goal = ref(30)
 
     const points = reactive({
@@ -40,6 +40,7 @@
 </style>
 <template>
     <nav>
+
         <ul>
             <div class="points__goal__container">
                 <div class="points__goal"><span class="points__goal__title">goal:  {{ goal }} points</span></div>

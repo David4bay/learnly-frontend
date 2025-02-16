@@ -1,0 +1,131 @@
+{
+    "mcquestions": [
+      {
+        "id": 1,
+        "question": "What is the chemical symbol for water?",
+        "options": ["CO2", "H2O", "O2", "NaCl"],
+        "answer": "H2O"
+      },
+      {
+        "id": 2,
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "answer": "Mars"
+      },
+      {
+        "id": 3,
+        "question": "What is the smallest unit of life?",
+        "options": ["Atom", "Cell", "Molecule", "Organ"],
+        "answer": "Cell"
+      },
+      {
+        "id": 4,
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Ribosome", "Mitochondria", "Endoplasmic Reticulum"],
+        "answer": "Mitochondria"
+      },
+      {
+        "id": 5,
+        "question": "What is the boiling point of water in Celsius?",
+        "options": ["50°C", "75°C", "100°C", "120°C"],
+        "answer": "100°C"
+      },
+      {
+        "id": 6,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 7,
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
+      },
+      {
+        "id": 8,
+        "question": "Which country is famous for the Great Wall?",
+        "options": ["India", "China", "Japan", "Russia"],
+        "answer": "China"
+      },
+      {
+        "id": 9,
+        "question": "What is the largest mammal in the world?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Shark"],
+        "answer": "Blue Whale"
+      },
+      {
+        "id": 10,
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Dollar", "Euro", "Peso"],
+        "answer": "Yen"
+      }
+    ],
+    "dragdropquestions": [
+      {
+        "id": 1,
+        "title": "Match the Element to Its Symbol",
+        "items": ["Hydrogen", "Carbon", "Oxygen", "Sodium", "Gold"],
+        "targets": ["H", "C", "O", "Na", "Au"],
+        "correctMatches": {
+          "Hydrogen": "H",
+          "Carbon": "C",
+          "Oxygen": "O",
+          "Sodium": "Na",
+          "Gold": "Au"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Match the Animal to Its Habitat",
+        "items": ["Polar Bear", "Dolphin", "Camel", "Kangaroo", "Penguin"],
+        "targets": ["Arctic", "Ocean", "Desert", "Australia", "Antarctica"],
+        "correctMatches": {
+          "Polar Bear": "Arctic",
+          "Dolphin": "Ocean",
+          "Camel": "Desert",
+          "Kangaroo": "Australia",
+          "Penguin": "Antarctica"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Match the Country to Its Flag",
+        "items": ["USA", "Japan", "France", "Canada", "Brazil"],
+        "targets": ["🇺🇸", "🇯🇵", "🇫🇷", "🇨🇦", "🇧🇷"],
+        "correctMatches": {
+          "USA": "🇺🇸",
+          "Japan": "🇯🇵",
+          "France": "🇫🇷",
+          "Canada": "🇨🇦",
+          "Brazil": "🇧🇷"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Match the Scientist to Their Discovery",
+        "items": ["Isaac Newton", "Marie Curie", "Albert Einstein", "Charles Darwin", "Gregor Mendel"],
+        "targets": ["Gravity", "Radioactivity", "Relativity", "Evolution", "Genetics"],
+        "correctMatches": {
+          "Isaac Newton": "Gravity",
+          "Marie Curie": "Radioactivity",
+          "Albert Einstein": "Relativity",
+          "Charles Darwin": "Evolution",
+          "Gregor Mendel": "Genetics"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Match the Fruit to Its Color",
+        "items": ["Apple", "Banana", "Orange", "Strawberry", "Blueberry"],
+        "targets": ["Red", "Yellow", "Orange", "Red", "Blue"],
+        "correctMatches": {
+          "Apple": "Red",
+          "Banana": "Yellow",
+          "Orange": "Orange",
+          "Strawberry": "Red",
+          "Blueberry": "Blue"
+        }
+      }
+    ]
+  }
