@@ -1,11 +1,11 @@
 <script setup>
-    import { ref, reactive } from "vue"
-    import { RouterLink } from "vue-router";
-    const goal = ref(30)
+import { ref, defineProps } from "vue"
+import { RouterLink } from "vue-router"
 
-    const points = reactive({
-        current: 0
-    })
+defineProps({
+    score: Number,
+    goal: Number
+})
 </script>
 <style scoped>
     nav {
@@ -53,18 +53,20 @@
         font-weight: 600;
     }
 
-    .points__goal__container {
-    }
 </style>
 <template>
     <nav>
-        <RouterLink to="/" class="back__button"><--</RouterLink>
+        <RouterLink to="/" class="back__button">←</RouterLink>
         <ul>
             <div class="points__goal__container">
-                <div class="points__goal"><span class="points__goal__title">goal:  {{ goal }} points</span></div>
+                <div class="points__goal">
+                    <span class="points__goal__title">goal: {{ goal }} points</span>
+                </div>
             </div>
             <div class="current__goal__container">
-                <div><span class="current__goal__title">current points:</span> {{ points.current }}</div>
+                <div>
+                    <span class="current__goal__title">current points:</span> {{ score }}
+                </div>
             </div>
         </ul>
     </nav>

@@ -1,15 +1,13 @@
 <script setup>
-    import { useRoute } from "vue-router"
-    import { ref } from "vue"
-    import ScoreNav from "@/components/ScoreNav.vue"
-    import LessonsQuestions from "@/components/LessonsQuestions.vue"
+import { ref } from "vue"
+import ScoreNav from "@/components/ScoreNav.vue"
+import LessonsQuestions from "@/components/LessonsQuestions.vue"
 
-    const route = useRoute().path
-
-    console.log("route path from Lessons", route)
+const score = ref(0)
+const goal = ref(30)
 </script>
 
 <template>
-    <ScoreNav />
-    <LessonsQuestions />
+    <ScoreNav :score="score" :goal="goal" />
+    <LessonsQuestions v-model:score="score" :goal="goal" />
 </template>

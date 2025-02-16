@@ -1,6 +1,7 @@
 <script setup>
 import { useRoute } from "vue-router"
-
+import QuizNav from "@/components/QuizNav.vue"
+import QuizBody from "@/components/QuizBody.vue"
 const route = useRoute().path
 
 console.log("route path from Quizes", route)
@@ -11,5 +12,6 @@ console.log("route path from Quizes", route)
 </style>
 
 <template>
-    <p>dkjd</p>
+    <QuizNav />
+    <QuizBody />
 </template>
